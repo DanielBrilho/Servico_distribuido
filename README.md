@@ -143,6 +143,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
 |---docker-compose.yml
 ```
 
+##Imagem no dockerhub
+https://hub.docker.com/repository/docker/danielbrilho223/servico_destribuido/general
+
 ## Contribuição
 
 Fique à vontade para abrir issues ou enviar pull requests com melhorias ou correções de bugs.
