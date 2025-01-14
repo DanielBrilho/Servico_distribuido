@@ -1,0 +1,18 @@
+# Base image
+FROM python:3.11-slim
+
+# Diretório de trabalho
+WORKDIR /app
+
+# Copiar arquivos necessários
+COPY requirements.txt ./
+COPY main.py ./
+
+# Instalar dependências
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expor a porta para o FastAPI
+EXPOSE 8000
+
+# Comando para iniciar o servidor
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
