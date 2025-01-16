@@ -1,8 +1,8 @@
-version: '3.8'
+version: "3.8"
 
 services:
   api:
-    image: danielbrilho223/servico_destribuido:latest
+    image: danielbrilho223/servico_destribuido:v1.0
     ports:
       - "8000:8000"
     environment:
@@ -23,6 +23,7 @@ services:
       - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - app_network
 
@@ -32,3 +33,4 @@ networks:
 
 volumes:
   db_data:
+
