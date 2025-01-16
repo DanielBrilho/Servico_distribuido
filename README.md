@@ -155,9 +155,13 @@ Foi feito para a unidade curricular de sistemas distribuidos no curso de TPSI no
 |---docker-compose.yml
 ```
 
-## Desenvolverdores
 
+## Desenvolvedores
 Daniel Brilho & João Gomes.
+
+## Imagem no dockerhub
+https://hub.docker.com/repository/docker/danielbrilho223/servico_destribuido/general
+
 
 ## Licença
 
