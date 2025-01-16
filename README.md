@@ -11,7 +11,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
 ## Endpoints
 
 ### 1. Obter Todos os Usuários
+
 **GET** `/users`
+
 - **Descrição**: Retorna uma lista de todos os usuários.
 - **Resposta**:
   ```json
@@ -25,7 +27,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
   ```
 
 ### 2. Criar um Usuário
+
 **POST** `/users`
+
 - **Descrição**: Cria um novo usuário.
 - **Corpo da Requisição**:
   ```json
@@ -44,7 +48,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
   ```
 
 ### 3. Atualizar um Usuário
+
 **PUT** `/users/{user_id}`
+
 - **Descrição**: Atualiza os detalhes de um usuário existente.
 - **Corpo da Requisição**:
   ```json
@@ -63,7 +69,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
   ```
 
 ### 4. Excluir um Usuário
+
 **DELETE** `/users/{user_id}`
+
 - **Descrição**: Exclui um usuário pelo ID.
 - **Resposta**:
   ```json
@@ -73,7 +81,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
   ```
 
 ### 5. Endpoint Raiz
+
 **GET** `/`
+
 - **Descrição**: Uma mensagem de boas-vindas para a API.
 - **Resposta**:
   ```json
@@ -91,17 +101,20 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
 ## Instruções para Configuração e Execução
 
 1. **Clonar o Repositório**:
+
    ```bash
    git clone https://github.com/DanielBrilho/Servico_distribuido
    cd Servico_distribuido
    ```
 
 2. **Instalar Dependências**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Preparar o Banco de Dados**:
+
    - Crie um banco de dados PostgreSQL chamado `meus_dados`.
    - Configure um usuário com o nome `daniels` e a senha `alice223`.
    - Crie uma tabela `users`:
@@ -114,19 +127,20 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
      ```
 
 4. **Executar a Aplicação**:
+
    ```bash
    uvicorn main:app --reload
    ```
 
 5. **Acessar a API**:
+
    - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
-   
+
 6. **Usando Docker**:
    - Execute os contêineres em produção:
      ```bash
-     docker-compose -f docker-compose.production.yml up -d
+     docker-compose -f docker-composeProduction.yml up -d
      ```
-
 
 ## Estrutura do Projeto
 
@@ -147,4 +161,3 @@ Fique à vontade para abrir issues ou enviar pull requests com melhorias ou corr
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
-
