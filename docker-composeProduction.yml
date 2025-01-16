@@ -5,6 +5,7 @@ services:
     image: danielbrilho223/servico_destribuido:v1.0
     ports:
       - "8000:8000"
+    restart: always
     environment:
       - DATABASE_URL=postgresql://daniels:alice223@db:5432/meus_dados
     depends_on:
