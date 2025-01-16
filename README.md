@@ -1,6 +1,7 @@
 # Exemplo de Integração FastAPI + asyncpg
 
 Este repositório fornece um exemplo simples de integração do FastAPI com o asyncpg para operações assíncronas no banco de dados. Abaixo, você encontra uma visão geral do código e instruções para executá-lo.
+Foi feito para a unidade curricular de sistemas distribuidos no curso de TPSI no IPVC com o Docente Wenderson Wanzeller.
 
 ## Funcionalidades
 
@@ -154,9 +155,9 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
 |---docker-compose.yml
 ```
 
-## Contribuição
+## Desenvolverdores
 
-Fique à vontade para abrir issues ou enviar pull requests com melhorias ou correções de bugs.
+Daniel Brilho & João Gomes.
 
 ## Licença
 
