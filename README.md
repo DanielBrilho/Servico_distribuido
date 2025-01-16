@@ -120,16 +120,13 @@ Este repositório fornece um exemplo simples de integração do FastAPI com o as
 
 5. **Acessar a API**:
    - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
-
+   
 6. **Usando Docker**:
-   - Construir a imagem Docker:
+   - Execute os contêineres em produção:
      ```bash
-     docker build -t fastapi-asyncpg-app .
+     docker-compose -f docker-compose.production.yml up -d
      ```
-   - Executar os contêineres:
-     ```bash
-     docker-compose up
-     ```
+
 
 ## Estrutura do Projeto
 
