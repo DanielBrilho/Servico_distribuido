@@ -43,6 +43,7 @@
    - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
 ## Instruções para Configuração e Execução
  **Usando Docker**:
+ - Clonar o repositorio:
      ```bash
     git clone https://github.com/DanielBrilho/Servico_distribuido
     cd Servico_distribuido
