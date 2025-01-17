@@ -38,9 +38,7 @@
    uvicorn main:app --reload
    ```
 
-5. **Acessar a API**:
 
-   - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
 ## Instruções para Configuração e Execução
  **Usando Docker**:
  - Clonar o repositorio:
@@ -52,7 +50,10 @@
      ```bash
      docker-compose -f docker-composeProduction.yml up -d
      ```
-    
+## Acessar API
+ **Metodos e ferramenta**:
+
+   - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
 ## Estrutura do Projeto
 
 ```
