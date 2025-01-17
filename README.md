@@ -1,10 +1,36 @@
 ## Requisitos
 
+- Docker(Principal)
 - Python 3.9+
 - Banco de Dados PostgreSQL
-- Docker (opcional, mas recomendado)
+
+## Descrição do projeto
+
+Este projeto se trata de uma aplicação de restful API em python utilizando o banco de dados postgreSQL, tendo em visão a utilização do docker para a execução da aplicação.
+
+Para o consumo da api: [Click aqui!](https://github.com/DanielBrilho/Servico_distribuido/blob/production/API.md)
 
 ## Instruções para Configuração e Execução
+
+**Usando Docker**:
+
+- Clonar o repositorio:
+  ```bash
+  git clone https://github.com/DanielBrilho/Servico_distribuido
+  cd Servico_distribuido
+  ```
+  - Execute os contêineres em produção:
+    ```bash
+    docker-compose -f docker-composeProduction.yml up -d
+    ```
+
+## Acessar API
+
+**Metodos e ferramenta**:
+
+- Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
+
+## Instruções para Configuração e Execução sem Docker
 
 1. **Clonar o Repositório**:
 
@@ -38,41 +64,9 @@
    uvicorn main:app --reload
    ```
 
-
-## Instruções para Configuração e Execução
- **Usando Docker**:
- - Clonar o repositorio:
-     ```bash
-    git clone https://github.com/DanielBrilho/Servico_distribuido
-    cd Servico_distribuido
-    ```
-   - Execute os contêineres em produção:
-     ```bash
-     docker-compose -f docker-composeProduction.yml up -d
-     ```
-## Acessar API
- **Metodos e ferramenta**:
-
-   - Abra seu navegador ou uma ferramenta como Postman e navegue para `http://127.0.0.1:8000`.
-## Estrutura do Projeto
-
-```
-|---api/
-|----Dockerfile
-|----requirements.txt
-|----main.py
-|---db/
-|----init.sql
-|---docker-compose.yml
-```
-
-
-## Desenvolvedores
-Daniel Brilho & João Gomes.
-
 ## Imagem no dockerhub
-https://hub.docker.com/repository/docker/danielbrilho223/servico_destribuido/general
 
+https://hub.docker.com/repository/docker/danielbrilho223/servico_destribuido/general
 
 ## Licença
 
