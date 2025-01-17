@@ -1,8 +1,3 @@
-# Integração FastAPI + asyncpg
-
-Este repositório fornece um exemplo simples de integração do FastAPI com o asyncpg para operações assíncronas no banco de dados. Abaixo, você encontra uma visão geral do código e instruções para executá-lo.
-Foi feito para a unidade curricular de sistemas distribuidos no curso de TPSI no IPVC com o Docente Wenderson Wanzeller.
-
 ## Funcionalidades
 
 - **Operações CRUD**: Criar, Ler, Atualizar e Excluir usuários.
@@ -92,4 +87,3 @@ Foi feito para a unidade curricular de sistemas distribuidos no curso de TPSI no
     "message": "Bem-vindo ao exemplo de integração FastAPI + asyncpg!"
   }
   ```
-
